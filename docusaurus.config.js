@@ -3,11 +3,11 @@ module.exports = {
   tagline: 'Scan. Detect. Secure.',
   url: 'https://docs.pentora.ai',
   baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Pentoraai',
   projectName: 'pentora-docs',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   themeConfig: {
     navbar: {
       title: 'Pentora Docs',
@@ -45,9 +45,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
