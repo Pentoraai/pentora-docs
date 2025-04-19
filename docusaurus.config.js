@@ -9,16 +9,21 @@ module.exports = {
   organizationName: 'Pentoraai',
   projectName: 'pentora-docs',
   themeConfig: {
-    navbar: {
-      title: 'Pentora Docs',
-      items: [
-        {
-          href: 'https://github.com/Pentoraai/pentora-core',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+navbar: {
+  title: '',
+  logo: {
+    alt: 'Pentora Logo',
+    src: 'img/logo.png',
+    href: '/',
+  },
+  items: [
+    {
+      href: 'https://github.com/Pentoraai/pentora-core',
+      label: 'GitHub',
+      position: 'right',
     },
+  ],
+},
     footer: {
       style: 'dark',
       links: [
