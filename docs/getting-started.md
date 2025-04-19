@@ -19,4 +19,3 @@ To scan your local network:
 ```bash
 pentora scan --target 192.168.1.0/24
 ```
-
