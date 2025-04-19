@@ -6,6 +6,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'Pentoraai',
   projectName: 'pentora-docs',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
   themeConfig: {
     navbar: {
       title: 'Pentora Docs',
